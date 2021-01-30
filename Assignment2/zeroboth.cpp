@@ -3,8 +3,9 @@
 using namespace std;
 
 
-void zeroBoth(int& x, int& y)
+// funtion that has two refrences of x and y. They are set to 0
+void zeroBoth(int &x, int &y)
 {
-    int x = 0;
-    int y = 0;
+    x = 0;
+    y = 0;
 }
